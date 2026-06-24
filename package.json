@@ -2,6 +2,7 @@
   "name": "verus-nl-pipeline",
   "private": true,
   "version": "0.1.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "concurrently -n web,api -c cyan,magenta \"vite\" \"node server/index.mjs\"",
